@@ -99,6 +99,8 @@ app.get("/getname", (request, response) => {
     response.json({name: decoded.name})
 })
 
+// que funcioneeee!
+
 app.listen(5500, ()=> {
     console.log("rodando")
 })
